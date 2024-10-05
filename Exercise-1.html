@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #FFAA00; /* Orange background */
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #FFAA00;
+            color: black;
+        }
+        td img {
+            width: 100px;
+            height: 100px;
+        }
+        .group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .group input[type="radio"] {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Animal Table</h1>
+
+<table>
+    <tr>
+        <th>No.</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Food</th>
+        <th>Group</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><img src="https://static.wikia.nocookie.net/beluga/images/9/99/Beluga_d.png/revision/latest/thumbnail/width/360/height/360?cb=20211229190719" alt="Smiling Cat"></td>
+        <td>Smiling <sup>Cat</sup></td>
+        <td>Healthy <sub>Fish</sub></td>
+        <td class="group">
+            <label><input type="radio" name="group1">Vertebrate</label>
+            <label><input type="radio" name="group1">Invertebrate</label>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg" alt="Happy Dog"></td>
+        <td>Happy <sup>Dog</sup></td>
+        <td>Fresh <sub>Meat</sub></td>
+        <td class="group">
+            <label><input type="radio" name="group2">Vertebrate</label>
+            <label><input type="radio" name="group2">Invertebrate</label>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><img src="https://www.safarisrwandasafari.com/wp-content/uploads/2021/12/chimpanzee-facts.jpg" alt="Confuse Simpanse"></td>
+        <td>Confuse <sup>Simpanse</sup></td>
+        <td>Sweet <sub>Banana</sub></td>
+        <td class="group">
+            <label><input type="radio" name="group3">Vertebrate</label>
+            <label><input type="radio" name="group3">Invertebrate</label>
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/800px-Jelly_cc11.jpg" alt="Frisky Jellyfish"></td>
+        <td>Frisky <sup>Jellyfish</sup></td>
+        <td>Saltwater <sub>Plankton</sub></td>
+        <td class="group">
+            <label><input type="radio" name="group4">Vertebrate</label>
+            <label><input type="radio" name="group4">Invertebrate</label>
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><img src="https://memorandum.disway.id/upload/94f3a3d3b6155b48a535d477db40acda.jpg" alt="Swimming Squid"></td>
+        <td>Swimming <sup>Squid</sup></td>
+        <td>Small <sub>Fish</sub></td>
+        <td class="group">
+            <label><input type="radio" name="group5">Vertebrate</label>
+            <label><input type="radio" name="group5">Invertebrate</label>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
